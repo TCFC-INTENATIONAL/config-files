@@ -31,3 +31,7 @@ prepare nginx for compilation
 # make
 # make install
 </pre>
+restart nginx
+<pre>
+#systemctl restart nginx
+</pre>
