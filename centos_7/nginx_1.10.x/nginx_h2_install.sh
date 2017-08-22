@@ -24,5 +24,5 @@ cd nginx-${NGINX_VERSION}
 make
 make install
 /bin/cp -rf nginx.conf /etc/nginx/nginx.conf
+openssl dhparam -out dhparam.pem 4096
 
-systemctl nginx retart
