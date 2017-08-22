@@ -24,4 +24,5 @@ cd nginx-${NGINX_VERSION}
 make
 make install
 /bin/cp -rf nginx.conf /etc/nginx/nginx.conf
+
 systemctl nginx retart
